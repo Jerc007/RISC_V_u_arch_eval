@@ -1,7 +1,7 @@
-Pending to check and compare waveforms and the traces.
+Pending to check and compare waveforms and the traces. done
 
-Pending to check the memories, and store their values.
+Pending to check the memories, and store their values. done
 
-Pending to launch fault simulations.
+Pending to launch fault simulations. done
 
 
