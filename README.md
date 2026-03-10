@@ -11,14 +11,14 @@ The framework is managed through commands using the makefile in the main folder 
 Steps to compute and evaluate a targeted application:
 * 1)	Compile a source code program (in case of hardened program already in sbst.hex, this step can be skipped, just place the sbst.hex file in the sbst folder)
 
-```console
-foo@bar:~$ whoami
-foo
-```
+
 
 Use:
 ```bach
 Make compile_sbst INPUT=programs/conv_INT/main
+```
+
+
 
 * 2)	Compile the RTL code of the processor (the function is able to compile both RTL and gate level at the same time)
 
