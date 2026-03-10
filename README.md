@@ -1,3 +1,8 @@
+# General description
+
+This repository contains a framework for low-level microarchitecture evaluation of hardware faults and their impact on software applications. 
+Furthermore, the framework allows the exploration and evaluation of software-based solutions to improve resilience and fault-tolerance.
+
 [![Build Status](https://travis-ci.com/pulp-platform/riscv.svg?branch=master)](https://travis-ci.com/pulp-platform/riscv)
 
 # OpenHW Group CORE-V CV32E40P RISC-V IP
