@@ -14,8 +14,6 @@ Steps to compute and evaluate a targeted application:
 Use:
 ```bach
 Make compile_sbst INPUT=programs/conv_INT/main
-```
-
 
 * 2)	Compile the RTL code of the processor (the function is able to compile both RTL and gate level at the same time)
 
