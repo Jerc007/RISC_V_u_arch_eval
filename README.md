@@ -34,7 +34,10 @@ Table I. Preliminary fault vulnerability results for several benchmarks.
 
 [![Build Status](https://travis-ci.com/pulp-platform/riscv.svg?branch=master)](https://travis-ci.com/pulp-platform/riscv)
 
-# OpenHW Group CORE-V CV32E40P RISC-V IP
+
+# Employed hardware:
+
+OpenHW Group CORE-V CV32E40P RISC-V IP
 
 CV32E40P is a small and efficient, 32-bit, in-order RISC-V core with a 4-stage pipeline that implements
 the RV32IM\[F|Zfinx\]C instruction set architecture, and the PULP custom extensions for achieving
