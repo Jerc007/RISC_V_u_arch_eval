@@ -12,6 +12,7 @@ Steps to compute and evaluate a targeted application:
 * 1)	Compile a source code program (in case of hardened program already in sbst.hex, this step can be skipped, just place the sbst.hex file in the sbst folder)
 
 Use:
+'''bach
 Make compile_sbst INPUT=programs/conv_INT/main
 
 
