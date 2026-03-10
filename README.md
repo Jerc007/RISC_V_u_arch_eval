@@ -10,23 +10,23 @@ Table I. Preliminary fault vulnerability results for several benchmarks.
 | Application	| Memory size (bytes)	| Execution RTL (ns)	| Evaluated faults	| Faults propagated	| Faults masked	| FPR% | 
 |-------------|---------------------|---------------------|-------------------|-------------------|---------------|------|
 | MxM_INT	    | 	                  | 5,351,610	          | 17,930	          | 10,705	          | 7,220         | 59.7 |
-| MxM_INT_DWC |                     |                     |                   |                   |               |      |    
+| MxM_INT_DWC |                     |                     |                   |                   |               |      | 
 | Conv_INT		|                     | 6,334,320           | 17,930	          | 10,921	          | 7,004	        | 60.9 |
-| Conv_INT_DWC						
-Reduction_INT		92,500	17,930	10,346	7,579	57.7
-Reduction_INT_DWC						
-Vector Add INT (printf)		1,105,410	17,930	11,595	6,330	64.49
-Vector Add		64,920	17,930	5,314	12,616	29.65
-Vector_add_alt1		133,010	17,930	10,028	7,902	55.93
-Vector_add_alt2		133,010	17,930	10,028	7,902	55.93
-Vector_add_alt2 (print)		948,780	17,930	11,587	6,343	64.64
-Vector_add_alt3		152,250	17,930	10,176	7,754	56.77
-Vector_Add_INT_DWC		197,260	17,930	10,741	7,189	59.91
-Transpose_INT(_alt1)		50,380	17,930	4,679	13,251	26.11
-Transpose_INT_alt2		32,450	17,930	4,506	13,424	25.15
-Transpose_INT_alt3		62,680	17,930	4,760	13,170	26.55
-Transpose_INT_DWC (printf)		4,633,870	17,930	9,937	7,993	55.44
-Transpose_INT_DWC		122,240	17,930	6,061	11,869	33.82
+| Conv_INT_DWC|                     |                     |                   |                   | 	            |      | 
+| Reduction_INT|                    |		92,500	          |            17,930	|            10,346	|        7,579	|  57.7| 
+| Reduction_INT_DWC	|               |                     |                   |                   |               |      | 
+| Vector Add INT (Active Debugger)	|	1,105,410	          |            17,930	|             11,595|        	6,330	| 64.49| 
+| Vector Add	 |                    | 	64,920	 | 17,930	 | 5,314	 | 12,616	 | 29.65 | 
+| Vector_add_alt1	 |                | 	133,010	 | 17,930	 | 10,028	 | 7,902	 | 55.93 | 
+| Vector_add_alt2	 |                | 	133,010	 | 17,930	 | 10,028	 | 7,902	 | 55.93 | 
+| Vector_add_alt2 (print)	 |        | 	948,780	 | 17,930	 | 11,587	 | 6,343	 | 64.64 | 
+| Vector_add_alt3	 |                | 	152,250 | 	17,930	 | 10,176	 | 7,754	 | 56.77 | 
+| Vector_Add_INT_DWC	 |            | 	197,260 | 	17,930	 | 10,741	 | 7,189	 | 59.91 | 
+| Transpose_INT(_alt1)	 |          |	50,380 | 	17,930 |  4,679	 | 13,251	 | 26.11 | 
+ | Transpose_INT_alt2		|           | 32,450	 | 17,930	 | 4,506	 | 13,424	 | 25.15 | 
+| Transpose_INT_alt3	 | 	          | 62,680	 | 17,930	 | 4,760	 | 13,170	 | 26.55 | 
+| Transpose_INT_DWC (printf)	 |    | 	4,633,870	 | 17,930 | 	9,937	 | 7,993	 | 55.44 | 
+| Transpose_INT_DWC		|             | 122,240	| 17,930	| 6,061| 	11,869 | 	33.82 | 
 
 
 
