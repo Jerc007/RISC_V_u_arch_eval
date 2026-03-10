@@ -11,50 +11,43 @@ The framework is managed through commands using the makefile in the main folder 
 Steps to compute and evaluate a targeted application:
 * 1)	Compile a source code program (in case of hardened program already in sbst.hex, this step can be skipped, just place the sbst.hex file in the sbst folder)
 
-
-
 Use:
 ```bach
 Make compile_sbst INPUT=programs/conv_INT/main
 ```
 
-
-
 * 2)	Compile the RTL code of the processor (the function is able to compile both RTL and gate level at the same time)
 
 Use:
+```bach
 Make Questa/compile
-
+```
 
 * 3)	Simulation of a program in the RTL processor (a file end_memory.txt is created with the final memory content)
 
 Use: 
+```bach
 Make Questa/lsim/rtl/shell_polimi_polito
-
+```
 
 * 4)	Simulation of a program in the gate-level processor (a file end_memory.txt is created with the final memory content) (required to generate the VCD file to be used during the zoix analysis)
 
 Use: 
+```bach
 Make Questa/lsim/gate/shell_polimi_polito
-
+```
 
 * 5)	Fault simulation on gate-level processor (only works with gate level processor)
 
 Use:
+```bach
 Make zoix/compile    (compile the framework and all required files)
 Make zoix/fgen/saf   (generate the fault list in “zoix/” folder (.sff file))
-
 Make zoix/lsim     (used to verify the input patterns on the gate version)
 Make zoix/fsim FAULT_LIST= (path to file file in “zoix/” folder (.sff file))
+```
 
-
-
-
-
-
-
-
-
+## Experimental results
 
 
 Table I. Preliminary fault vulnerability results for several benchmarks.
