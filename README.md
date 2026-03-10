@@ -15,7 +15,7 @@ Table I. Preliminary fault vulnerability results for several benchmarks.
 | Conv_INT_DWC|                     |                     |                   |                   | 	            |      | 
 | Reduction_INT|                    |		92,500	          |            17,930	|            10,346	|        7,579	|  57.7| 
 | Reduction_INT_DWC	|               |                     |                   |                   |               |      | 
-| Vector Add INT (Active Debugger)	|	1,105,410	          |            17,930	|             11,595|        	6,330	| 64.49| 
+| Vector Add INT (Active Debugger) | 	|	1,105,410	          |            17,930	|             11,595|        	6,330	| 64.49| 
 | Vector Add	 |                    | 	64,920	 | 17,930	 | 5,314	 | 12,616	 | 29.65 | 
 | Vector_add_alt1	 |                | 	133,010	 | 17,930	 | 10,028	 | 7,902	 | 55.93 | 
 | Vector_add_alt2	 |                | 	133,010	 | 17,930	 | 10,028	 | 7,902	 | 55.93 | 
