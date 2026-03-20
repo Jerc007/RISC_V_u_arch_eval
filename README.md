@@ -52,7 +52,7 @@ Make zoix/fsim FAULT_LIST= (path to file file in “zoix/” folder (.sff file))
 
 Table I. Preliminary fault vulnerability results for several benchmarks.
 
-| Application	| Memory size (bytes)	| Execution RTL (ns)	| Evaluated faults	| Faults propagated	| Faults masked	| FPR% | 
+| Application	| | Execution RTL (ns)	| Evaluated faults	| Faults propagated	| Faults masked	| FPR% | 
 |-------------|---------------------|---------------------|-------------------|-------------------|---------------|------|
 | MxM_INT	    | 	                  | 5,351,610	          | 17,930	          | 10,705	          | 7,220         | 59.7 |
 | MxM_INT_DWC |                     |                     |                   |                   |               |      | 
