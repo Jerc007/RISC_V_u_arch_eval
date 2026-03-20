@@ -55,11 +55,8 @@ Table I. Preliminary fault vulnerability results for several benchmarks.
 | Application	| | Execution RTL (ns)	| Evaluated faults	| Faults propagated	| Faults masked	| FPR% | 
 |-------------|---------------------|---------------------|-------------------|-------------------|---------------|------|
 | MxM_INT	    | 	                  | 5,351,610	          | 17,930	          | 10,705	          | 7,220         | 59.7 |
-| MxM_INT_DWC |                     |                     |                   |                   |               |      | 
 | Conv_INT		|                     | 6,334,320           | 17,930	          | 10,921	          | 7,004	        | 60.9 |
-| Conv_INT_DWC|                     |                     |                   |                   | 	            |      | 
 | Reduction_INT|                    |		92,500	          |            17,930	|            10,346	|        7,579	|  57.7| 
-| Reduction_INT_DWC	|               |                     |                   |                   |               |      | 
 | Vector Add INT (Active Debugger) | 	|	1,105,410	          |            17,930	|             11,595|        	6,330	| 64.49| 
 | Vector Add	 |                    | 	64,920	 | 17,930	 | 5,314	 | 12,616	 | 29.65 | 
 | Vector_add_alt1	 |                | 	133,010	 | 17,930	 | 10,028	 | 7,902	 | 55.93 | 
@@ -80,7 +77,7 @@ Table I. Preliminary fault vulnerability results for several benchmarks.
 [![Build Status](https://travis-ci.com/pulp-platform/riscv.svg?branch=master)](https://travis-ci.com/pulp-platform/riscv)
 
 
-# Employed hardware:
+# Employed hardware benchmark:
 
 OpenHW Group CORE-V CV32E40P RISC-V IP
 
@@ -124,47 +121,10 @@ Only the person who actually performs the merge can add these labels (you need c
 ## Constraints
 Example synthesis constraints for the CV32E40P are provided.
 
-## Contributing
-
-We highly appreciate community contributions. We are currently using the lowRISC contribution guide.
-To ease our work of reviewing your contributions,
-please:
-
-* Create your own fork to commit your changes and then open a Pull Request to the **dev** branch.
-* Split large contributions into smaller commits addressing individual changes or bug fixes. Do not
-  mix unrelated changes into the same commit!
-* Do not mix updates within the 'rtl' directory with updates within the 'docs' directory ino the same pull request.
-* Write meaningful commit messages. For more information, please check out the [the Ibex contribution
-  guide](https://github.com/lowrisc/ibex/blob/master/CONTRIBUTING.md).
-* If asked to modify your changes, do fixup your commits and rebase your branch to maintain a
-  clean history.
-* If the PR gets accepted and merged into the the **dev** branch, an action is triggered automatically to check whether the changes are logically equivalent to the frozen RTL on a given set of parameters. If the changes are logically equivalent, the **dev** branch is automatically merged into the **master** branch. Otherwise, we need to investigate manually. If a bug is found, thus the changes are not logically equivalent, we follow the procedure documented [here](https://docs.openhwgroup.org/projects/cv32e40p-user-manual/core_versions.html). 
-
 For more details on how this is implemented, have a look at this [page](https://github.com/openhwgroup/cv32e40p/blob/master/.github/workflows/aws_cv32e40p.md).
-
-When contributing SystemVerilog source code, please try to be consistent and adhere to [the lowRISC Verilog
-coding style guide](https://github.com/lowRISC/style-guides/blob/master/VerilogCodingStyle.md).
 
 To get started, please check out the ["Good First Issue"
  list](https://github.com/openhwgroup/cv32e40p/issues?q=is%3Aissue+is%3Aopen+-label%3Astatus%3Aresolved+label%3A%22good+first+issue%22).
 
 The RTL code has been formatted with ["Verible"](https://github.com/google/verible) v0.0-1149-g7eae750.
 Run `./util/format-verible` to format all the files.
-
-## Issues and Troubleshooting
-
-If you find any problems or issues with CV32E40P or the documentation, please check out the [issue
- tracker](https://github.com/openhwgroup/cv32e40p/issues) and create a new issue if your problem is
-not yet tracked.
-
-## References
-
-1. [Gautschi, Michael, et al. "Near-Threshold RISC-V Core With DSP Extensions for Scalable IoT Endpoint Devices."
- in IEEE Transactions on Very Large Scale Integration (VLSI) Systems, vol. 25, no. 10, pp. 2700-2713, Oct. 2017](https://doi.org/10.1109/TVLSI.2017.2654506)
-
-2. [Schiavone, Pasquale Davide, et al. "Slow and steady wins the race? A comparison of
- ultra-low-power RISC-V cores for Internet-of-Things applications."
- _27th International Symposium on Power and Timing Modeling, Optimization and Simulation
- (PATMOS 2017)_](https://doi.org/10.1109/PATMOS.2017.8106976)
-
-
